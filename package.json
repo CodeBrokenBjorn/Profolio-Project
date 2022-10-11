@@ -1,0 +1,13 @@
+{
+  "name": "tailwindstuff",
+  "version": "1.0.0",
+  "description": "Note:My Read me ain't best so I am trying my best xD ahahah.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build-css": "tailwindcss build ./src/style.css -o ./dist/output.css",
+    "start": "npx tailwindcss -i ./src/styles.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

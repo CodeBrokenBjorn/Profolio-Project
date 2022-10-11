@@ -1,8 +1,16 @@
-/** @type {import('tailwindcss').Config} */
+const tailwindcss =require('tailwindcss');
 module.exports = {
-  content: ["./index.html"],
+  content: ["./**/*.{html,js}"],
   theme: {
-    extend: {},
+    backgroundImage: {
+      'backMain': "url('../image/backgroundStuff.png')",
+    },
+    extend: {
+        
+    },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss'),
+    require('autoprefixer'),
+  ],
 }

@@ -17,3 +17,4 @@ Note to able to run the code and access the code you need to input this code in 
 Simple and easy, takes ages to set it up though plus some thing are not so clear.
 
 
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
