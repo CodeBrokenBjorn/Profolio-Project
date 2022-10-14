@@ -4,6 +4,9 @@ module.exports = {
   theme: {
     backgroundImage: {
       'backMain': "url('../image/backgroundStuff.png')",
+      'secondBackMian': "url('../image/backSTud.png')",
+      'seconadBackstuff': "url('../image/seconadBackstuff.png')",
+      'thirdBackMian': "url('../image/Backgroundstuff.jpg')",
     },
     extend: {
         
